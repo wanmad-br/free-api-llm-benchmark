@@ -18,7 +18,7 @@ public class GoogleGeminiTestApplication {
 	public CommandLineRunner runGeminiApi() {
 		return args -> {
 			// Mock da resposta da API Gemini
-			String mockResponse = "{\"candidates\":[{\"content\":{\"parts\":[{\"text\":\"Resposta mockada do Gemini!\"}]}}]}";
+			String mockResponse = "{\"candidates\":[{\"content\":{\"parts\":[{\"text\":\"moço response Gemini!\"}]}}]}";
 			System.out.println("Gemini API response: " + mockResponse);
 		};
 	}
